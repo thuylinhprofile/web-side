@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+header .top {
+    background: #060;
+    height: 48px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.top .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.top .left {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}

@@ -17,6 +17,10 @@ header .top {
     align-items: center;
 }
 
+.social a {
+    text-decoration: none;
+}
+
 .top .container {
     display: flex;
     justify-content: space-between;
@@ -27,4 +31,38 @@ header .top {
     display: flex;
     align-items: center;
     gap: 4px;
+}
+
+.menu .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu a:hover {
+    color: blue;
+}
+
+.top .right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.search-box {
+    background: white;
+    padding: 0 16px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.search-box input {
+    height: 34px;
+    border: none;
 }

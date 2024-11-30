@@ -109,3 +109,62 @@ a:active {
     display: grid;
     place-items: center;
 } */
+ .section {
+     display: inline;
+    max-width: 1170px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+ }
+ .section .banner_about a img{
+        box-shadow: 4px 0 25px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 50%;
+        padding: 3px;
+ }
+.lazyload {
+    display: inline;
+    width: 452px;
+        height: 522px;
+        border-radius: 50%;
+        object-fit: cover;
+}
+.lazyload:hover {
+    transform: scale(1.1);
+    /* Tăng kích thước khi hover */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    /* Thêm bóng đổ */
+}
+
+.contentpage{
+    display: inline;
+        font-family: "Avo", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #5d6567;
+        box-sizing: border-box;
+        display: block;
+        unicode-bidi: isolate;
+}
+.contentpage a:hover {
+    color: #060;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.contentpage a {
+    text-decoration: none;
+}
+.des_title{
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            unicode-bidi: isolate;
+}
+.des_title{
+    text-decoration: underline;
+}
